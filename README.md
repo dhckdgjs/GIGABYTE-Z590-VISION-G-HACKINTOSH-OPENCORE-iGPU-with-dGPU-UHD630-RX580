@@ -30,6 +30,7 @@ And this guide can be used on the Gigabyte, MSI, AsRock M/B also. (some settings
 - SSDT-UIAC-Z590-VISION-G-V1.aml with USBInjectall.kext
 
 cf) Custom USBInjectall.kext by softxing(for XHC 500 Series USB Chipset 8086:43ed) [https://gitee.com/softxing/OS-X-USB-Inject-All](https://gitee.com/softxing/OS-X-USB-Inject-All)
+
 4. Change M/B Bios Primary display(ASUS) or Initial Display Output(Gigabyte) to PEG or PCIe 1(and iGPU MUST be turned on)
 5. Apply the Framebuffer patch(Headless) on your Devices setting in config.plist. (check settings as below and recommend using the Hackintool)
 

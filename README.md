@@ -5,7 +5,7 @@ Opencore Hackintosh settings for Gigabyte Z590 Vision-G
 ## Components
 
 - M/B: GIGABYTE Z590 Vision-G(BIOS F2)
-- CPU: Intel® Core™ i7-10700K Processor
+- CPU: Intel® Core™ i7-10700K Processor(10th Gen)
 - iGPU: Intel® UHD Graphics 630
 - dGPU: SAPPHIRE NITRO AMD Radeon RX 580 4GB
 - Ethernet: Intel® i225-V, 2.5 x Gigabit LAN Controller

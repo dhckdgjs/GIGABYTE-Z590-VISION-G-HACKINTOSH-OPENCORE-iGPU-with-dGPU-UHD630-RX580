@@ -60,6 +60,7 @@ Also, I recommend manual hardware configuration in Ethernet advanced settings.
 - Built-in Ethernet, Audio
 - Sleep and wake
 - DRM(like Netflix, but only SMBIOS iMacPro1,1)
+- FCPX edit, skimming, export (but export speed is too slow, partialy iGPU accelerated)
 
 ## What doesn't works
 

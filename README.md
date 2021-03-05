@@ -16,6 +16,7 @@ Opencore Hackintosh settings for Gigabyte Z590 Vision-G
 
 ## Caution
 GIGABYTE Z590 Vision-G M/B(BIOS F2) CAN NOT BOOT with GIGABYTE RX580 MINING or GAMING.
+(Compatibility issue)
 
 
 ## Comments

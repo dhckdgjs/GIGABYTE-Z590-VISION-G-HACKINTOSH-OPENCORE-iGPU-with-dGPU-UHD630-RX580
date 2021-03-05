@@ -39,7 +39,6 @@ cf) Custom USBInjectall.kext by softxing(for XHC 500 Series USB Chipset 8086:43e
 
     igfxfw: 02000000
 
-    enable-metal: 01000000
     ```
 
     Ref.
@@ -49,6 +48,9 @@ cf) Custom USBInjectall.kext by softxing(for XHC 500 Series USB Chipset 8086:43e
 6. Built-in Audio (ALC 4080) no need any settings or kexts. ALC 4080 uses USB HS14 port. It looks like External USB Sound Card.
 7. Built-in Ethernet (Intel i225-V 2.5GBe controller) only works with fake device-id(F2150000) and FakePCIID.kext, FakePCIID_Intel_I225-V.kext.
 Also, I recommend manual hardware configuration in Ethernet advanced settings.
+
+- ITE Device (0x5702 device on USB HS13 port): if you need the RGB Fusion feature, please check other thread as below.
+[https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/page-24#post-2138475](https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/page-24#post-2138475)
 
 ## What Works
 

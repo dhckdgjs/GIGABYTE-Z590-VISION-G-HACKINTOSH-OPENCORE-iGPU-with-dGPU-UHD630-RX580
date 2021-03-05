@@ -40,7 +40,6 @@ cf) Custom USBInjectall.kext by softxing(for XHC 500 Series USB Chipset 8086:43e
     device-id: C59B0000 Intel UHD 630(maybe works well 0x3E92, 0x3E98 etc., not necessarily)
 
     igfxfw: 02000000
-
     ```
 
     Ref.
@@ -75,3 +74,10 @@ If you need more detailed settings fot this GIGABYTE Z590 Vision-G M/B, please c
 Thanks.
 
 ## Screenshots
+
+<img width="1015" alt="Screen Shot 2021-03-05 at 6 17 27 AM" src="https://user-images.githubusercontent.com/35429874/110146164-955d4080-7e1d-11eb-8f91-1459c91b8960.png">
+<img width="1097" alt="Screen Shot 2021-03-05 at 6 17 57 AM" src="https://user-images.githubusercontent.com/35429874/110146207-a312c600-7e1d-11eb-906b-97152c15b1ac.png">
+<img width="1015" alt="Screen Shot 2021-03-05 at 6 17 45 AM" src="https://user-images.githubusercontent.com/35429874/110146232-adcd5b00-7e1d-11eb-8e08-3ae945db88db.png">
+<img width="1015" alt="Screen Shot 2021-03-05 at 6 17 36 AM" src="https://user-images.githubusercontent.com/35429874/110146244-b0c84b80-7e1d-11eb-8f73-cd1c8a6f1fd4.png">
+<img width="780" alt="Screen Shot 2021-03-06 at 1 03 54 AM" src="https://user-images.githubusercontent.com/35429874/110146294-bc1b7700-7e1d-11eb-8ae0-083c4a98e353.png">
+

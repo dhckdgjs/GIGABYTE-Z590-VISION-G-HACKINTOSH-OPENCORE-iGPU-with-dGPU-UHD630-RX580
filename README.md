@@ -13,6 +13,11 @@ Opencore Hackintosh settings for Gigabyte Z590 Vision-G
 - Audio: Realtek® ALC 4080 High Definition Audio
 - Case: Fractal Design R7 Compact
 
+
+## Caution
+GIGABYTE Z590 Vision-G M/B(BIOS F2) CAN NOT BOOT with GIGABYTE RX580 MINING or GAMING.
+
+
 ## Comments
 
 This Hackintosh build guide is NOT GUARANTEE 100% fully working in your conditions.

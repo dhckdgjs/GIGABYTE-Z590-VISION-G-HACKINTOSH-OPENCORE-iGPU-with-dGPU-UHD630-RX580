@@ -77,12 +77,9 @@ Thanks.
 
 <img width="1015" alt="Screen Shot 2021-03-05 at 6 17 27 AM" src="https://user-images.githubusercontent.com/35429874/110146164-955d4080-7e1d-11eb-8f91-1459c91b8960.png">
 <img width="1097" alt="Screen Shot 2021-03-05 at 6 17 57 AM" src="https://user-images.githubusercontent.com/35429874/110146207-a312c600-7e1d-11eb-906b-97152c15b1ac.png">
-<img width="1015" alt="Screen Shot 2021-03-05 at 6 17 45 AM" src="https://user-images.githubusercontent.com/35429874/110146232-adcd5b00-7e1d-11eb-8e08-3ae945db88db.png">
 ALC 4080 works like External USB Sound Card.
-
-<img width="1015" alt="Screen Shot 2021-03-05 at 6 17 36 AM" src="https://user-images.githubusercontent.com/35429874/110146244-b0c84b80-7e1d-11eb-8f73-cd1c8a6f1fd4.png">
+<img width="1015" alt="Screen Shot 2021-03-05 at 6 17 45 AM" src="https://user-images.githubusercontent.com/35429874/110146232-adcd5b00-7e1d-11eb-8e08-3ae945db88db.png">
 Intel i225-V 2.5GBe controller works with fake device-id(F2150000) and FakePCIID.kext, FakePCIID_Intel_I225-V.kext.
-
-<img width="780" alt="Screen Shot 2021-03-06 at 1 03 54 AM" src="https://user-images.githubusercontent.com/35429874/110146294-bc1b7700-7e1d-11eb-8ae0-083c4a98e353.png">
+<img width="1015" alt="Screen Shot 2021-03-05 at 6 17 36 AM" src="https://user-images.githubusercontent.com/35429874/110146244-b0c84b80-7e1d-11eb-8f73-cd1c8a6f1fd4.png">
 Manual hardware configuration in Ethernet advanced settings.
-
+<img width="780" alt="Screen Shot 2021-03-06 at 1 03 54 AM" src="https://user-images.githubusercontent.com/35429874/110146294-bc1b7700-7e1d-11eb-8ae0-083c4a98e353.png">

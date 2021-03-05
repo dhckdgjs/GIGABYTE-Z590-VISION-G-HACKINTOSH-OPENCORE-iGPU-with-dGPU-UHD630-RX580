@@ -15,7 +15,7 @@ Opencore Hackintosh settings for Gigabyte Z590 Vision-G
 
 ## Comments
 
-This Hackintosh build guide is ~NOT GUARANTEE~ 100% fully working in your conditions.
+This Hackintosh build guide is NOT GUARANTEE 100% fully working in your conditions.
 
 This guide has been tested on MacOS Bigsur 11.2.2, OPENCORE 0.6.7 and prefers the use of an AMD dGPU for ease of installation. However, until now, I have NOT found the BEST SETTINGS for iGPU hardware full acceleration.
 

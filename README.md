@@ -4,24 +4,24 @@ Opencore Hackintosh settings for Gigabyte Z590 Vision-G
 
 ## Components
 
-GIGABYTE Z590 Vision-G(BIOS F2)
-Intel® Core™ i7-10700K Processor (10th Gen, UHD630)
-Samsung DDR4 32GB 3200MHz (2 x 16GB)
-3RSYS RC400 CPU Cooler
-EVGA 750 GQ
-Fractal Design R7 Compact
-LG 43UN700 43-inch UHD Monitor
+- GIGABYTE Z590 Vision-G(BIOS F2)
+- Intel® Core™ i7-10700K Processor (10th Gen, UHD630)
+- Samsung DDR4 32GB 3200MHz (2 x 16GB)
+- 3RSYS RC400 CPU Cooler
+- EVGA 750 GQ
+- Fractal Design R7 Compact
+- LG 43UN700 43-inch UHD Monitor
 
 
 ## Components: Already owned
 
-Micron MX300 750G
-SAPPHIRE NITRO AMD Radeon RX 580 4GB
-BCM94360CS2 / BT WiFi Card
-Realforce 106U-KB USB Keyboard
-Kensington Slimblade USB Trackball
-Lexar LRW400 Memory Reader
-Sound Blaster Play! 3 USB Sound card
+- Micron MX300 750G
+- SAPPHIRE NITRO AMD Radeon RX 580 4GB
+- BCM94360CS2 / BT WiFi Card
+- Realforce 106U-KB USB Keyboard
+- Kensington Slimblade USB Trackball
+- Lexar LRW400 Memory Reader
+- Sound Blaster Play! 3 USB Sound card
 
 
 ## Caution

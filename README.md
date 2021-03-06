@@ -4,7 +4,7 @@ Opencore Hackintosh settings for Gigabyte Z590 Vision-G
 
 ## Components
 
-- GIGABYTE Z590 Vision-G(BIOS F2)
+- GIGABYTE Z590 Vision-G(BIOS F2 with ALC4080, i225-V)
 - Intel® Core™ i7-10700K Processor (10th Gen, UHD630)
 - Samsung DDR4 32GB 3200MHz (2 x 16GB)
 - 3RSYS RC400 CPU Cooler

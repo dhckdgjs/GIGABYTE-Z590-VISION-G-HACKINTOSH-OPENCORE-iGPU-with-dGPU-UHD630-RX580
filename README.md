@@ -40,8 +40,8 @@ And this guide can be used on the Gigabyte, MSI, AsRock M/B also. (some settings
 ## Procedure
 
 1. Install MacOS 11.2.2 or newer(with OPENCORE 0.6.6 or newer)
-2. Set the SMBIOS to iMac 20,1 or iMacPro 1,1
-3. Apply custom USB Port map files. iMac20,1 and iMacPro1,1 is not matter(USBPorts.kext modified by dhckdgjs) There are 2 ways you can do this:
+2. Set the SMBIOS to iMac20,2 ~~iMac 20,1 or iMacPro 1,1~~
+3. Apply custom USB Port map files. ~~iMac20,2, iMac20,1 and iMacPro1,1 is not matter(USBPorts.kext modified by dhckdgjs)~~ There are 2 ways you can do this:
 - USBPorts.kext without USBInjectall.kext
 - SSDT-UIAC-Z590-VISION-G-V1.aml with USBInjectall.kext
 

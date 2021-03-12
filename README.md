@@ -33,7 +33,7 @@ GIGABYTE Z590 Vision-G M/B(BIOS F2) CAN NOT BOOT with GIGABYTE RX580 MINING or G
 
 This Hackintosh build guide is NOT GUARANTEE 100% fully working in your conditions.
 
-This guide has been tested on MacOS Bigsur 11.2.2, OPENCORE 0.6.7 and prefers the use of an AMD dGPU for ease of installation. However, until now, I have NOT found the BEST SETTINGS for iGPU hardware full acceleration.
+This guide has been tested on MacOS Bigsur 11.2.2, OPENCORE 0.6.7 and prefers the use of an AMD dGPU for ease of installation. ~~However, until now, I have NOT found the BEST SETTINGS for iGPU hardware full acceleration.~~
 
 And this guide can be used on the Gigabyte, MSI, AsRock M/B also. (some settings are different)
 
@@ -76,19 +76,45 @@ Also, I recommend manual hardware configuration in Ethernet advanced settings.
 - Built-in Ethernet, Audio
 - Sleep and wake
 - DRM(like Netflix, but only SMBIOS iMacPro1,1)
-- FCPX editing, skimming, export (but export speed is too slow, partialy iGPU accelerated)
+- FCPX editing, skimming, export
+- iGPU Hardware Acceleration(Quicksync)
 
 ## What doesn't works
 
-- iGPU hardware acceleration(Quicksync)
+- ~~iGPU hardware acceleration(Quicksync)~~
+
 
 ## Summary
 
-As far as I have been able to test, everything works well except iGPU hardware acceleration and Thunderbolt devices.(I don’t have ThunderboltEX 3 or Titan/Alpine ridge add-on card)
+As far as I have been able to test, everything works well except ~~iGPU hardware acceleration and~~ Thunderbolt devices.(I don’t have ThunderboltEX 3 or Titan/Alpine ridge add-on card)
 
 If you need more detailed settings fot this GIGABYTE Z590 Vision-G M/B, please check released file.(like as USB ports map)
 
 Thanks.
+
+
+## Update 21.03.12
+iGPU H/W acceleration works smoothly and quickly.
+(SMBIOS iMac20,2 / platform-id 0300923E / device-id 923E0000)
+
+
+### Sample clip export test
+
+Original: AVCHD(H.264), MOV, 3840*2160, 29.97p(100Mbps), 4:2:0, 8Bit, Long GOP, AAC
+
+Export: FCPX 10.5.1, H.264, MP4, 1920*1080, 29.97p(2000kbps)
+
+
+- iMac20,2, Bigsur 11.2.2, OC 0.6.7, 10700K, GA Z590 Vision G, RX580: **26:44**(This Hackintosh)
+- iMac19,1, Catalina 10.15.6, OC 0.6.0, 9600K, GA H370 Gaming 3, RX580: **27:35**
+- iMac19,1, Bigsur 11.1, OC 0.6.7, 9900K, GA Z390 Designare, 9900K, Vega64: **18:12**
+
+
+**Intel Power Gadget can not show GFX AVG(iGPU). But it works(H/W acceleration) well.**
+
+<img width="300" alt="Screen_Shot_2021-03-09_at_1 21 51_AM" src="https://user-images.githubusercontent.com/35429874/110897783-6d9c3a00-8341-11eb-9c8d-ffb96ac14ba9.png"> <img width="700" alt="Screen_Shot_2021-03-09_at_1 21 54_AM" src="https://user-images.githubusercontent.com/35429874/110897975-c370e200-8341-11eb-818d-d77aede0d87a.png">
+
+
 
 ## Screenshots
 

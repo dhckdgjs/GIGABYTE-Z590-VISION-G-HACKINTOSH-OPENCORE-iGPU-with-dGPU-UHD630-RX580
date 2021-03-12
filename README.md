@@ -100,9 +100,9 @@ iGPU H/W acceleration works smoothly and quickly.
 
 - Sample clip export test
 
-Original: AVCHD(H.264) MOV 3840*2160 29.97p(100Mbps) 4:2:0 8Bit Long GOP AAC
+Original: AVCHD(H.264), MOV, 3840*2160, 29.97p(100Mbps), 4:2:0, 8Bit, Long GOP, AAC
 
-Export: H.264 MP4 1920*1080 29.97p(2000kbps)
+Export: FCPX 10.5.1, H.264, MP4, 1920*1080, 29.97p(2000kbps)
 
 
 - iMac20,2, Bigsur 11.2.2, OC 0.6.7, 10700K, GA Z590 Vision G, RX580: **26:44**(This Hackintosh)

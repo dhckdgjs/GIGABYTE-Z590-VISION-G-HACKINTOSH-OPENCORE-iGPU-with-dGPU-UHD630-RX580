@@ -114,7 +114,7 @@ Export: FCPX 10.5.1, H.264, MP4, 1920*1080, 29.97p(2000kbps)
 
 <img width="300" alt="Screen_Shot_2021-03-09_at_1 21 51_AM" src="https://user-images.githubusercontent.com/35429874/110897783-6d9c3a00-8341-11eb-9c8d-ffb96ac14ba9.png">
 
-![Untitled](https://user-images.githubusercontent.com/35429874/110897069-1a75b780-8340-11eb-9889-aeccca9fe81d.png)
+<img width="500" alt="Untitled" src=https://user-images.githubusercontent.com/35429874/110897069-1a75b780-8340-11eb-9889-aeccca9fe81d.png">
 
 
 

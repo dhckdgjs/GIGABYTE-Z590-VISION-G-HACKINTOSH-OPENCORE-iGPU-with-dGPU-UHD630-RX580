@@ -33,7 +33,7 @@ GIGABYTE Z590 Vision-G M/B(BIOS F2) CAN NOT BOOT with GIGABYTE RX580 MINING or G
 
 This Hackintosh build guide is NOT GUARANTEE 100% fully working in your conditions.
 
-This guide has been tested on MacOS Bigsur 11.2.2, OPENCORE 0.6.7 and prefers the use of an AMD dGPU for ease of installation. However, until now, I have NOT found the BEST SETTINGS for iGPU hardware full acceleration.
+This guide has been tested on MacOS Bigsur 11.2.2, OPENCORE 0.6.7 and prefers the use of an AMD dGPU for ease of installation. ~~However, until now, I have NOT found the BEST SETTINGS for iGPU hardware full acceleration.~~
 
 And this guide can be used on the Gigabyte, MSI, AsRock M/B also. (some settings are different)
 
@@ -86,7 +86,7 @@ Also, I recommend manual hardware configuration in Ethernet advanced settings.
 
 ## Summary
 
-As far as I have been able to test, everything works well except iGPU hardware acceleration and Thunderbolt devices.(I don’t have ThunderboltEX 3 or Titan/Alpine ridge add-on card)
+As far as I have been able to test, everything works well except ~~iGPU hardware acceleration and~~ Thunderbolt devices.(I don’t have ThunderboltEX 3 or Titan/Alpine ridge add-on card)
 
 If you need more detailed settings fot this GIGABYTE Z590 Vision-G M/B, please check released file.(like as USB ports map)
 

@@ -109,10 +109,13 @@ Export: FCPX 10.5.1, H.264, MP4, 1920*1080, 29.97p(2000kbps)
 - iMac19,1, Catalina 10.15.6, OC 0.6.0, 9600K, GA H370 Gaming 3, RX580: **27:35**
 - iMac19,1, Bigsur 11.1, OC 0.6.7, 9900K, GA Z390 Designare, 9900K, Vega64: **18:12**
 
-![Untitled](https://user-images.githubusercontent.com/35429874/110897069-1a75b780-8340-11eb-9889-aeccca9fe81d.png)
-
 
 * Intel Power Gadget can not show GFX AVG(iGPU). But it works(H/W acceleration) well.
+
+<img width="300" alt="Screen_Shot_2021-03-09_at_1 21 51_AM" src="https://user-images.githubusercontent.com/35429874/110897783-6d9c3a00-8341-11eb-9c8d-ffb96ac14ba9.png">
+
+![Untitled](https://user-images.githubusercontent.com/35429874/110897069-1a75b780-8340-11eb-9889-aeccca9fe81d.png)
+
 
 
 ## Screenshots

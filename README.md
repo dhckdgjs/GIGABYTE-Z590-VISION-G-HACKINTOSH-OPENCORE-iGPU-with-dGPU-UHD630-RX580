@@ -98,7 +98,7 @@ iGPU H/W acceleration works smoothly and quickly.
 (SMBIOS iMac20,2 / platform-id 0300923E / device-id 923E0000)
 
 
-- Sample clip export test
+### Sample clip export test
 
 Original: AVCHD(H.264), MOV, 3840*2160, 29.97p(100Mbps), 4:2:0, 8Bit, Long GOP, AAC
 

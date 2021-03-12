@@ -97,9 +97,11 @@ Thanks.
 iGPU H/W acceleration works smoothly and quickly.
 (SMBIOS iMac20,2 / platform-id 0300923E / device-id 923E0000)
 
+
 - Sample clip export test
-_- Original: AVCHD(H.264) MOV 3840*2160 29.97p(100Mbps) 4:2:0 8Bit Long GOP AAC
-- Export: H.264 MP4 1920*1080 29.97p(2000kbps)_
+
+Original: AVCHD(H.264) MOV 3840*2160 29.97p(100Mbps) 4:2:0 8Bit Long GOP AAC
+Export: H.264 MP4 1920*1080 29.97p(2000kbps)
 
 iMac20,2, Bigsur 11.2.2, OC 0.6.7, 10700K, GA Z590 Vision G, RX580: **26:44**(This Hackintosh)
 iMac19,1, Catalina 10.15.6, OC 0.6.0, 9600K, GA H370 Gaming 3, RX580: **27:35**

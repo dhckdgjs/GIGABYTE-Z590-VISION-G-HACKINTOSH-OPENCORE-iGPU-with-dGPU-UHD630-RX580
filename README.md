@@ -80,7 +80,7 @@ Also, I recommend manual hardware configuration in Ethernet advanced settings.
 
 ## What doesn't works
 
-- iGPU hardware acceleration(Quicksync)
+- ~~iGPU hardware acceleration(Quicksync)~~
 
 ## Summary
 

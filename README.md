@@ -76,11 +76,13 @@ Also, I recommend manual hardware configuration in Ethernet advanced settings.
 - Built-in Ethernet, Audio
 - Sleep and wake
 - DRM(like Netflix, but only SMBIOS iMacPro1,1)
-- FCPX editing, skimming, export (but export speed is too slow, partialy iGPU accelerated)
+- FCPX editing, skimming, export
+- iGPU Hardware Acceleration(Quicksync)
 
 ## What doesn't works
 
 - ~~iGPU hardware acceleration(Quicksync)~~
+
 
 ## Summary
 
@@ -89,6 +91,25 @@ As far as I have been able to test, everything works well except iGPU hardware a
 If you need more detailed settings fot this GIGABYTE Z590 Vision-G M/B, please check released file.(like as USB ports map)
 
 Thanks.
+
+
+## Update 21.03.12
+iGPU H/W acceleration works smoothly and quickly.
+(SMBIOS iMac20,2 / platform-id 0300923E / device-id 923E0000)
+
+- Sample clip export test
+_- Original: AVCHD(H.264) MOV 3840*2160 29.97p(100Mbps) 4:2:0 8Bit Long GOP AAC
+- Export: H.264 MP4 1920*1080 29.97p(2000kbps)_
+
+iMac20,2, Bigsur 11.2.2, OC 0.6.7, 10700K, GA Z590 Vision G, RX580: **26:44**(This Hackintosh)
+iMac19,1, Catalina 10.15.6, OC 0.6.0, 9600K, GA H370 Gaming 3, RX580: **27:35**
+iMac19,1, Bigsur 11.1, OC 0.6.7, 9900K, GA Z390 Designare, 9900K, Vega64: **18:12**
+
+![Untitled](https://user-images.githubusercontent.com/35429874/110897069-1a75b780-8340-11eb-9889-aeccca9fe81d.png)
+
+
+* Intel Power Gadget can not show GFX AVG(iGPU). But it works(H/W acceleration) well.
+
 
 ## Screenshots
 

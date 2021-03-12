@@ -112,7 +112,7 @@ Export: FCPX 10.5.1, H.264, MP4, 1920*1080, 29.97p(2000kbps)
 
 **Intel Power Gadget can not show GFX AVG(iGPU). But it works(H/W acceleration) well.**
 
-<img width="300" alt="Screen_Shot_2021-03-09_at_1 21 51_AM" src="https://user-images.githubusercontent.com/35429874/110897783-6d9c3a00-8341-11eb-9c8d-ffb96ac14ba9.png"> <img width="700" alt="Screen_Shot_2021-03-09_at_1 21 54_AM" src="https://user-images.githubusercontent.com/35429874/110897975-c370e200-8341-11eb-818d-d77aede0d87a.png">
+<img width="300" alt="Screen_Shot_2021-03-09_at_1 21 51_AM" src="https://user-images.githubusercontent.com/35429874/110897783-6d9c3a00-8341-11eb-9c8d-ffb96ac14ba9.png"> <img width="600" alt="Screen_Shot_2021-03-09_at_1 21 54_AM" src="https://user-images.githubusercontent.com/35429874/110897975-c370e200-8341-11eb-818d-d77aede0d87a.png">
 
 
 

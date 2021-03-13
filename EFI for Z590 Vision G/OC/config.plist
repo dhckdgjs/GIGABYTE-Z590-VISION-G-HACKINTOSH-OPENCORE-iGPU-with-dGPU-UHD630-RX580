@@ -8,6 +8,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Fix AppleSMBus support in macOS</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SBUS-MCHC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Defines dummy EC (embedded controller) device</string>
 				<key>Enabled</key>
 				<true/>
@@ -18,7 +26,7 @@
 				<key>Comment</key>
 				<string>Enables native NVRAM support</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-NVRAM.aml</string>
 			</dict>
@@ -32,14 +40,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable wake from USB/Bluetooth; wake only with power button</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-GPRW.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Fixes RTC-related boot issues (AWAC = A Weird Ass Clock)</string>
 				<key>Enabled</key>
 				<true/>
@@ -48,11 +48,27 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Turn off the RHUB device and force macOS to manually rebuild the ports</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RHUB.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Works with USBWakeFixup.kext to enable proper wake from sleep</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-USBW.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable wake from USB/Bluetooth; wake only with power button</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-GPRW.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -472,6 +488,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBWakeFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>Display-1e6d-5b09.kext</string>
+				<key>Comment</key>
+				<string>Fix for LG-43UD79</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>

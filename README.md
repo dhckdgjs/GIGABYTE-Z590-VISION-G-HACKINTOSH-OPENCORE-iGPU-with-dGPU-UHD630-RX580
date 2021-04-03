@@ -104,7 +104,8 @@ This update affected both ways.(kext and acpi)
 ## Update 21.03.12
 iGPU H/W acceleration works smoothly and quickly.
 (SMBIOS iMac20,2 / platform-id 0300923E / device-id 923E0000)
-* If H/W acceleration doesn't work after MacOS 11.2.3 update, change ID to 0300983E and 983E0000. Please check config.plist ver0.4.
+
+cf. If H/W acceleration doesn't work after MacOS 11.2.3 update, change ID to 0300983E and 983E0000. Please check config.plist ver0.4.
 
 
 ### Sample clip export test

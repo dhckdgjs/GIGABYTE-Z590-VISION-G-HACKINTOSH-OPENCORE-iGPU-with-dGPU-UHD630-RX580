@@ -75,14 +75,15 @@ Also, I recommend manual hardware configuration in Ethernet advanced settings.
 - Continuity features
 - WiFi and BT
 - Built-in Ethernet, Audio
-- ~~Sleep and wake~~
+- Sleep and wake
 - DRM(like Netflix, but only SMBIOS iMacPro1,1)
 - FCPX editing, skimming, export
 - iGPU Hardware Acceleration(Quicksync)
 
 ## What doesn't works
 
-- Sleep and wake works but Fan still running
+- Nothing
+- ~~Sleep and wake works but Fan still running~~ (Fixing USB Ports map settings: USBPorts.kext and SSDT-UIAC-Z590-VISION-G-V2.aml)
 - ~~iGPU hardware acceleration(Quicksync)~~
 
 
@@ -95,9 +96,15 @@ If you need more detailed settings fot this GIGABYTE Z590 Vision-G M/B, please c
 Thanks.
 
 
+## Update 21.04.04
+Fix USB Ports map settings.(Sleep and wake work well)
+This update affected both ways.(kext and acpi)
+
+
 ## Update 21.03.12
 iGPU H/W acceleration works smoothly and quickly.
 (SMBIOS iMac20,2 / platform-id 0300923E / device-id 923E0000)
+* If H/W acceleration doesn't work after MacOS 11.2.3 update, change ID to 0300983E and 983E0000. Please check config.plist ver0.4.
 
 
 ### Sample clip export test

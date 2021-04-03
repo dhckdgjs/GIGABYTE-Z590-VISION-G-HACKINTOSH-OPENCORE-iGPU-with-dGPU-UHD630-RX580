@@ -66,6 +66,7 @@ cf) Custom USBInjectall.kext by softxing(for XHC 500 Series USB Chipset 8086:43e
 7. Built-in Ethernet (Intel i225-V 2.5GBe controller) only works with fake device-id(F2150000) and FakePCIID.kext, FakePCIID_Intel_I225-V.kext.
 Also, I recommend manual hardware configuration in Ethernet advanced settings.
 
+- System will NOT boot without **SSDT-AWAC.aml**
 - ITE Device (0x5702 device on USB HS13 port): if you need the RGB Fusion feature, please check other thread as below.
 [https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/page-24#post-2138475](https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/page-24#post-2138475)
 
@@ -74,13 +75,14 @@ Also, I recommend manual hardware configuration in Ethernet advanced settings.
 - Continuity features
 - WiFi and BT
 - Built-in Ethernet, Audio
-- Sleep and wake
+- ~~Sleep and wake~~
 - DRM(like Netflix, but only SMBIOS iMacPro1,1)
 - FCPX editing, skimming, export
 - iGPU Hardware Acceleration(Quicksync)
 
 ## What doesn't works
 
+- Sleep and wake works but Fan still running
 - ~~iGPU hardware acceleration(Quicksync)~~
 
 
@@ -114,6 +116,11 @@ Export: FCPX 10.5.1, H.264, MP4, 1920*1080, 29.97p(2000kbps), 29:54
 
 <img width="300" alt="Screen_Shot_2021-03-09_at_1 21 51_AM" src="https://user-images.githubusercontent.com/35429874/110897783-6d9c3a00-8341-11eb-9c8d-ffb96ac14ba9.png"> <img width="600" alt="Screen_Shot_2021-03-09_at_1 21 54_AM" src="https://user-images.githubusercontent.com/35429874/110897975-c370e200-8341-11eb-818d-d77aede0d87a.png">
 
+
+
+## Update 21.03.14
+
+Add some SSDTs(Fake EC Device, SBUS etc.,)
 
 
 ## Screenshots

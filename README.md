@@ -28,6 +28,10 @@ Opencore Hackintosh settings for Gigabyte Z590 Vision-G
 GIGABYTE Z590 Vision-G M/B(BIOS F2) CAN NOT BOOT with GIGABYTE RX580 MINING or GAMING.
 (Compatibility issue)
 
+21.04.27
+Do NOT up date Big sur 11.3
+Some USB ports map does not work in 11.3
+I'll update UIAC files ASAP
 
 ## Comments
 

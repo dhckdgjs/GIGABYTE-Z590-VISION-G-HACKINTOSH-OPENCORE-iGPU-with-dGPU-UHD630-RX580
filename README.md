@@ -46,12 +46,10 @@ You don't need to apply this fix, if there are no issue with Big sur 11.3 USB.
 
 
 
-Issue
-USB port map(like USBPort.kext) settings do not work(partially or all) properly after Big sur 11.3 update.
+Issue: USB port map(like USBPort.kext) settings do not work(partially or all) properly after Big sur 11.3 update.
 
 
-Solution
-Re-map usb ports and Apply Kernel patches.
+Solution: Re-map usb ports and Apply Kernel patches.
 
 
 ## Comments

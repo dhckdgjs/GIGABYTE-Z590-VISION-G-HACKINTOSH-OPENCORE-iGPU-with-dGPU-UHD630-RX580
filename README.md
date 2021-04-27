@@ -29,9 +29,72 @@ GIGABYTE Z590 Vision-G M/B(BIOS F2) CAN NOT BOOT with GIGABYTE RX580 MINING or G
 (Compatibility issue)
 
 21.04.27
-Do NOT up date Big sur 11.3
+~~Do NOT up date Big sur 11.3
 Some USB ports map does not work in 11.3
-I'll update UIAC files ASAP
+I'll update UIAC files ASAP~~
+
+
+##[Caution]
+This is NOT a permanant solution.
+Please use this way until a release newer version of Opencore and Hackintool.
+
+Please visit this link.
+
+https://www.tonymacx86.com/threads/ohchangs-build-gigabyte-z590-vision-g-i7-10700k-amd-rx580.310986/post-2245176
+
+---
+
+I checked Z590 Vision-G M/B only.
+You don't need to apply this fix, if there are no issue with Big sur 11.3 USB.
+
+
+
+Issue
+
+USB port map(like USBPort.kext) settings do not work(partially or all) properly after Big sur 11.3 update.
+
+
+
+Solution
+Re-map usb ports and Apply Kernel patches.
+
+Step 1. Re-map with USBMap(*python script)
+USBPort.kext(from Hackintool) does not work in Big sur 11.3,
+please re-map all USB ports of your system.
+
+Then replace old USBport.kext(Hackintool ver.)
+
+USBMap script
+Python script for mapping USB ports in macOS and creating a custom injector kext. - corpnewt/USBMap
+github.com
+
+(Attached file is USBMap.kext(USBMap ver.) only for Z590 Vision-G)
+
+
+
+Step 2. Quirks to Kernel Patch
+Apply 2 Kernel patches as below.
+Then Uncheck Quirks patch : OC - Kernel - Quirks - XhciPortLimit - false(uncheck)
+
+
+Identifier: com.apple.iokit.IOUSBHostFamily
+Comment: USB Port limit patch #1/2 10.15.x (credit DalianSky)
+Find: 83FB0F0F
+Replace: 83FB3F0F
+
+Identifier: com.apple.driver.usb.AppleUSBXHCI
+Comment: USB Port limit patch #2/2 10.15.x (credit DalianSky)
+Find: 83F90F0F
+Replace: 83F93F0F
+Screen Shot 2021-04-27 at 8.24.35 PM.png
+
+
+
+
+Final
+If you had not updated Big sur 11.3 with Z590 M/B yet,
+I recommend just waiting until OC & Hackintool update :)
+
 
 ## Comments
 

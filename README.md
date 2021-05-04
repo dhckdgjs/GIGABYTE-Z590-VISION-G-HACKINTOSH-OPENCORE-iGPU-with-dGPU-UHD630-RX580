@@ -28,28 +28,39 @@ Opencore Hackintosh settings for Gigabyte Z590 Vision-G
 GIGABYTE Z590 Vision-G M/B(BIOS F2) CAN NOT BOOT with GIGABYTE RX580 MINING or GAMING.
 (Compatibility issue)
 
-21.04.27
+
+
+### 21.05.05 update
+
+There is no way to set more than 16 USB ports in Big sur 11.3.1, Opencore 0.6.9.
+
+I set 15 port with USBPorts.kext.
+Disabled USB ports information as below.
+
+![Z590vision-g_USB](https://user-images.githubusercontent.com/35429874/117065936-0c05b400-ad63-11eb-8837-11caf7e153ba.jpg)
+
+
+Everything works well.
+
+
+
+
+### 21.04.27 update
+
+
 ~~Do NOT up date Big sur 11.3
 Some USB ports map does not work in 11.3
 I'll update UIAC files ASAP~~
 
 
-[Caution]
-This is NOT a permanant solution.
+~~This is NOT a permanant solution.
 Please use this way until a release newer version of Opencore and Hackintool.
-
 For the detail, please visit this link.
-
 https://www.tonymacx86.com/threads/ohchangs-build-gigabyte-z590-vision-g-i7-10700k-amd-rx580.310986/post-2245176
+You don't need to apply this fix, if there are no issue with Big sur 11.3 USB.~~
 
-You don't need to apply this fix, if there are no issue with Big sur 11.3 USB.
-
-
-
-Issue: USB port map(like USBPort.kext from hackintool) settings do not work(partially or all) properly after Big sur 11.3 update.
-
-
-Solution: Re-map usb ports(by USBMap script) and Apply Kernel patches(NOT OC Quirks, manual works only).
+~~Issue: USB port map(like USBPort.kext from hackintool) settings do not work(partially or all) properly after Big sur 11.3 update.
+Solution: Re-map usb ports(by USBMap script) and Apply Kernel patches(NOT OC Quirks, manual works only).~~
 
 
 ## Comments

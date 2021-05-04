@@ -35,7 +35,7 @@ GIGABYTE Z590 Vision-G M/B(BIOS F2) CAN NOT BOOT with GIGABYTE RX580 MINING or G
 There is no way to set more than 16 USB ports in Big sur 11.3.1, Opencore 0.6.9.
 
 I set 15 port with USBPorts.kext.
-Disabled USB ports information as below.
+Disabled USB ports information as below. (Enable - Blue text, Disable - Red text)
 
 ![Z590vision-g_USB](https://user-images.githubusercontent.com/35429874/117065936-0c05b400-ad63-11eb-8837-11caf7e153ba.jpg)
 

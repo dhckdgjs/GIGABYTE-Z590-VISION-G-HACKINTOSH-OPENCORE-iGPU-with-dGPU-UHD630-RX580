@@ -97,6 +97,18 @@ If you need more detailed settings fot this GIGABYTE Z590 Vision-G M/B, please c
 
 Thanks.
 
+## Update 21.06.12
+
+- Opencore 0.7.0 applied
+
+- Sleep does not work properly after WiFi module(NGFF M.2 M key type adapter) install
+Solution
+https://www.tonymacx86.com/threads/ohchangs-build-gigabyte-z590-vision-g-i7-10700k-amd-rx580.310986/page-6#post-2252331
+cf) You don't need to use this quick fix for sleep issues if you have a PCI-e WiFi module.
+
+- SK Hynix P31 NVME M.2 SSD works well with Hackintosh: Firmware update or Rev.41062C20 needed.
+
+
 
 ## Update 21.05.31 - Freezing and Stuttering on Big sur 11.4
 

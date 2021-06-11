@@ -7,6 +7,7 @@ Opencore Hackintosh settings for Gigabyte Z590 Vision-G
 - GIGABYTE Z590 Vision-G(BIOS F2 with ALC4080, i225-V)
 - Intel® Core™ i7-10700K Processor (10th Gen, UHD630)
 - Samsung DDR4 32GB 3200MHz (2 x 16GB)
+- Hynix P31 NVME SSD Drive(Rev.41062C20)
 - 3RSYS RC400 CPU Cooler
 - EVGA 750 GQ
 - Fractal Design R7 Compact
@@ -28,28 +29,6 @@ Opencore Hackintosh settings for Gigabyte Z590 Vision-G
 GIGABYTE Z590 Vision-G M/B(BIOS F2) CAN NOT BOOT with GIGABYTE RX580 MINING or GAMING.
 (Compatibility issue)
 
-21.04.27
-~~Do NOT up date Big sur 11.3
-Some USB ports map does not work in 11.3
-I'll update UIAC files ASAP~~
-
-
-[Caution]
-This is NOT a permanant solution.
-Please use this way until a release newer version of Opencore and Hackintool.
-
-For the detail, please visit this link.
-
-https://www.tonymacx86.com/threads/ohchangs-build-gigabyte-z590-vision-g-i7-10700k-amd-rx580.310986/post-2245176
-
-You don't need to apply this fix, if there are no issue with Big sur 11.3 USB.
-
-
-
-Issue: USB port map(like USBPort.kext from hackintool) settings do not work(partially or all) properly after Big sur 11.3 update.
-
-
-Solution: Re-map usb ports(by USBMap script) and Apply Kernel patches(NOT OC Quirks, manual works only).
 
 
 ## Comments
@@ -119,9 +98,69 @@ If you need more detailed settings fot this GIGABYTE Z590 Vision-G M/B, please c
 Thanks.
 
 
+## Update 21.05.31 - Freezing and Stuttering on Big sur 11.4
+
+Issue: Feezing and stuttering or boot failure after Big sur 11.4 update
+
+Cause: Kernel patch for Intel i225 onboard NIC does NOT work anymore on 11.4
+
+Solution
+- Restore to the old version of fake id injection
+
+1. Delete/Disable vit9696 kernel patch
+2. Add FakePCIID.kext, FakePCIID_Intel_I225-V.kext(Add Kernel also)
+3. Add DeviceProperties for i225 ethernet
+
+Reboot,
+Done
+
+If you need more in-depth research on this issue, please check this thread.
+Thanks, CaseySJ
+
+https://www.tonymacx86.com/threads/ohchangs-build-gigabyte-z590-vision-g-i7-10700k-amd-rx580.310986/post-2253791
+https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/page-598#post-2247206
+
+
+
+## Update 21.05.05
+
+There is no way to set more than 16 USB ports in Big sur 11.3.1, Opencore 0.6.9.
+
+I set 15 port with USBPorts.kext.
+Disabled USB ports information as below. (Enable - Blue text, Disable - Red text)
+
+![Z590vision-g_USB](https://user-images.githubusercontent.com/35429874/117065936-0c05b400-ad63-11eb-8837-11caf7e153ba.jpg)
+
+
+Everything works well.
+
+
+## Update 21.04.27
+
+~~Do NOT up date Big sur 11.3
+Some USB ports map does not work in 11.3
+I'll update UIAC files ASAP~~
+
+
+~~This is NOT a permanant solution.
+Please use this way until a release newer version of Opencore and Hackintool.
+For the detail, please visit this link.
+https://www.tonymacx86.com/threads/ohchangs-build-gigabyte-z590-vision-g-i7-10700k-amd-rx580.310986/post-2245176
+You don't need to apply this fix, if there are no issue with Big sur 11.3 USB.~~
+
+~~Issue: USB port map(like USBPort.kext from hackintool) settings do not work(partially or all) properly after Big sur 11.3 update.
+Solution: Re-map usb ports(by USBMap script) and Apply Kernel patches(NOT OC Quirks, manual works only).~~
+
+
+
 ## Update 21.04.04
 Fix USB Ports map settings.(Sleep and wake work well)
 This update affected both ways.(kext and acpi)
+
+
+## Update 21.03.14
+Add some SSDTs(Fake EC Device, SBUS etc.,)
+
 
 
 ## Update 21.03.12
@@ -129,6 +168,8 @@ iGPU H/W acceleration works smoothly and quickly.
 (SMBIOS iMac20,2 / platform-id 0300923E / device-id 923E0000)
 
 cf. If H/W acceleration doesn't work after MacOS 11.2.3 update, change ID to 0300983E and 983E0000. Please check config.plist ver0.4.
+
+
 
 
 ### Sample clip export test
@@ -149,9 +190,6 @@ Export: FCPX 10.5.1, H.264, MP4, 1920*1080, 29.97p(2000kbps), 29:54
 
 
 
-## Update 21.03.14
-
-Add some SSDTs(Fake EC Device, SBUS etc.,)
 
 
 ## Screenshots

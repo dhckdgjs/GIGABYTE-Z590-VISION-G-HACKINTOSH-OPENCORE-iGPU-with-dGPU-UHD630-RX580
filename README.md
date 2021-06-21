@@ -97,15 +97,13 @@ If you need more detailed settings fot this GIGABYTE Z590 Vision-G M/B, please c
 
 Thanks.
 
-
+---
 
 ## Update 21.06.20​
 
 - The Intel i225-v connection lost problem reappears.
 
-→ Solution
-
-https://www.tonymacx86.com/threads/ohchangs-build-gigabyte-z590-vision-g-i7-10700k-amd-rx580.310986/post-2258474 (maybe temporary)
+→ Solution : https://www.tonymacx86.com/threads/ohchangs-build-gigabyte-z590-vision-g-i7-10700k-amd-rx580.310986/post-2258474 (maybe temporary)
 
 
 ## Update 21.06.12

@@ -7,7 +7,7 @@ Opencore Hackintosh settings for Gigabyte Z590 Vision-G
 - GIGABYTE Z590 Vision-G(BIOS F2 with ALC4080, i225-V)
 - Intel® Core™ i7-10700K Processor (10th Gen, UHD630)
 - Samsung DDR4 32GB 3200MHz (2 x 16GB)
-- Hynix P31 NVME SSD Drive(Rev.41062C20)
+- SK Hynix P31 NVME SSD Drive(Rev.41062C20)
 - 3RSYS RC400 CPU Cooler
 - EVGA 750 GQ
 - Fractal Design R7 Compact
@@ -96,6 +96,27 @@ As far as I have been able to test, everything works well except ~~iGPU hardware
 If you need more detailed settings fot this GIGABYTE Z590 Vision-G M/B, please check released file.(like as USB ports map)
 
 Thanks.
+
+---
+
+## Update 21.06.20​
+
+- The Intel i225-v connection lost problem reappears.
+
+→ Solution : https://www.tonymacx86.com/threads/ohchangs-build-gigabyte-z590-vision-g-i7-10700k-amd-rx580.310986/post-2258474 (maybe temporary)
+
+
+## Update 21.06.12
+
+- Opencore 0.7.0 applied
+
+- Sleep does not work properly after WiFi module(NGFF M.2 M key type adapter) install
+Solution
+https://www.tonymacx86.com/threads/ohchangs-build-gigabyte-z590-vision-g-i7-10700k-amd-rx580.310986/page-6#post-2252331
+cf) You don't need to use this quick fix for sleep issues if you have a PCI-e WiFi module.
+
+- SK Hynix P31 NVME M.2 SSD works well with Hackintosh: Firmware update or Rev.41062C20 needed.
+
 
 
 ## Update 21.05.31 - Freezing and Stuttering on Big sur 11.4

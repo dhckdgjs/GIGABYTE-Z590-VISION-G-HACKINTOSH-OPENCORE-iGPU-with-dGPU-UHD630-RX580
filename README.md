@@ -109,15 +109,15 @@ EFI for Z590 Vision G Ver 0.8
 
 (No custom firmware, No VT-D related settings like SSDT-DMAR.aml etc)
 
-![z590 eth](https://user-images.githubusercontent.com/35429874/233735122-867ef959-c932-4e13-89b1-b8764a23d049.png)
-<img width="872" alt="z590 eth plist" src="https://user-images.githubusercontent.com/35429874/233735697-e71c2eb4-567d-410a-b075-1bb33d3ae73d.png">
+<img width="800" alt="z590 eth" src="https://user-images.githubusercontent.com/35429874/233736700-891fa245-cd64-4115-b9e1-6fc166bd8edf.png">
+<img width="650" alt="z590 eth plist" src="https://user-images.githubusercontent.com/35429874/233735697-e71c2eb4-567d-410a-b075-1bb33d3ae73d.png">
 
 
 - Not working FCPX/Compressor or H/W acceleration failure after Ventura update
 
 → Edit IGPU Device properties(update later, incomplete success, Export speed 10~20% slower than v0.7)
 
-![z590 igpu](https://user-images.githubusercontent.com/35429874/233735276-b385d9ac-9e23-4693-aa81-0d33103965d8.png)
+<img width="650" alt="z590 igpu plist" src="https://user-images.githubusercontent.com/35429874/233736812-e3a9d84e-c159-41fa-902f-1296c4d5dc98.png">
 
 
 

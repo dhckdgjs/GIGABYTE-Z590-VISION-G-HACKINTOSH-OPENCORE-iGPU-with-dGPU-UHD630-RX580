@@ -99,7 +99,27 @@ Thanks.
 
 ---
 
-## Update 21.06.20​
+## Update 23.04.22​
+
+EFI for Z590 Vision G Ver 0.8
+
+- Freezing and stuttering after Ventura 13.x update
+→ Force to use injected KEXT driver(from Monterey) for Intel i225-V
+
+![z590 eth](https://user-images.githubusercontent.com/35429874/233735122-867ef959-c932-4e13-89b1-b8764a23d049.png)
+
+
+- Not working FCPX/Compressor or H/W acceleration failure after Ventura update
+→ Edit IGPU Device properties(update later, incomplete success, Export speed 10~20% slower than v0.7)
+
+![z590 igpu](https://user-images.githubusercontent.com/35429874/233735276-b385d9ac-9e23-4693-aa81-0d33103965d8.png)
+
+
+And other tiny problems fixed and improvements
+
+
+
+## Update 21.06.20
 
 - The Intel i225-v connection lost problem reappears.
 

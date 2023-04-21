@@ -105,8 +105,10 @@ EFI for Z590 Vision G Ver 0.8
 
 - Freezing and stuttering after Ventura 13.x update
 → Force to use injected KEXT driver(from Monterey) for Intel i225-V
+(No custom firmware, No VT-D related settings like SSDT-DMAR.aml etc)
 
 ![z590 eth](https://user-images.githubusercontent.com/35429874/233735122-867ef959-c932-4e13-89b1-b8764a23d049.png)
+<img width="872" alt="z590 eth plist" src="https://user-images.githubusercontent.com/35429874/233735697-e71c2eb4-567d-410a-b075-1bb33d3ae73d.png">
 
 
 - Not working FCPX/Compressor or H/W acceleration failure after Ventura update

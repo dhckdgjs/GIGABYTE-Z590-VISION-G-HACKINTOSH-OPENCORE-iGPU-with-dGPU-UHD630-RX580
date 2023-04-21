@@ -101,6 +101,8 @@ Thanks.
 
 ## Update 23.04.22 for Ventura​
 
+[https://www.tonymacx86.com/threads/ohchangs-build-gigabyte-z590-vision-g-i7-10700k-amd-rx580.310986/page-27](https://www.tonymacx86.com/threads/ohchangs-build-gigabyte-z590-vision-g-i7-10700k-amd-rx580.310986/post-2367540)
+
 EFI for Z590 Vision G Ver 0.8
 
 - Freezing and stuttering after Ventura 13.x update
